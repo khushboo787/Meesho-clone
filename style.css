@@ -566,8 +566,9 @@ button{
   padding-right: 60px;
 }
 .footer_part{
-    width: 1200px;
+    width: 1300px;
     height: 1000px;
     border: 1px solid blue;
     margin: auto;
+    border-radius: 8px;
 }
