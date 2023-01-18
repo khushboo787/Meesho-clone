@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Fashion, Electronics, Home & More | Meesho</title>
+     <!--fevicon icon-->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png" />
+    <link rel="stylesheet"href="./style.css"/>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+       
+</head>
+<body>
+    <header class="header">
+        <div class="headerLeft">
+            <div class="logo-Container">
+                <img src="./img/meesho.png"alt="error"/>
+            </div>
+             <!--seach box-->
+            <div class="search_input_container">
+                     
+                     <div class="search_icon">
+                             <img src="./img/search.png"alt="error"/>
+                     </div>
+                     
+                     
+               <form action="" id="input_Form">
+                  <input type="text" placeholder="Try Saree, Kurti or Search by Product Code"class="input_Search" />
+               </form>
+
+
+               <div class="input_Close_Search">
+                       <i class="fa-solid fa-xmark" id="close_Search"></i>    
+               </div>
+
+
+                <div class="search_Recent_Modal">
+                      <h3>Recent Searches</h3>
+                   <div class="list_of_Recent"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerRight">
+            <div class="downloadContainer">
+                <div class="mobileIcon">
+                    <img src="./img/mobile.png" />
+                </div>
+                <p>Download App</p>
+
+                <div class="downloadHoverBtnContainer">
+                    <h3>Download From</h3>
+
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" />
+                    </a>
+                    <a href="" class="downloadBtn">
+                        <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="becomeSupplierContainer">
+                <p>Become a Supplier</p>
+            </div>
+
+            <div class="profileAndCart">
+                <div class="profileContainer">
+                    <div class="profileIcon">
+                        <img src="./img/user.png" />
+                    </div>
+                    <p>Profile</p>
+                </div>
+
+                <div class="CartContainer">
+                    <div class="CartIcon">
+                        <img src="./img/cart.png" />
+                    </div>
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+            
+    </header>
+    <nav>
+        <ul>
+            <li id="first_tag">Women Ethnic
+                <div class="subMenu">
+                    <div  class="submenuList"id="WomenEthnic_ID">
+
+
+                    </div>
+                </div>
+            </li>
+            <li>Women Western
+                <div class="subMenu">
+                    <div id="womenWestern_ID" class="submenuList">
+
+                    </div>
+
+                </div>
+            </li>
+            <li>Men
+                <div class="subMenu">
+                    <div id="men_ID" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Kids
+                <div class="subMenu">
+                    <div id="kids_ID" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Home & Kitchen
+                <div class="subMenu">
+                    <div id="HomeAndKitchen_ID" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Beauty & Health
+                <div class="subMenu">
+                    <div id="beautyAndHealth_ID" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Jewellery & Accessories
+                <div class="subMenu">
+                    <div id="JewelleryAndAccessoriesID" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li>Bags & Footwear
+                <div class="subMenu">
+                    <div id="BagsFootWaearrrId" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+            <li id="last_tag">Electronics
+                <div class="subMenu">
+                    <div id="ElectronicsId" class="submenuList">
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!--lowest prices-->
+    <div class="lowest_price_Container">
+        <div class="lowest_Price_text">
+            <h1>Lowest Prices </h1>
+            <h1>Best Quality Shopping</h1>
+            <div class="lowest_Price_Whay">
+                <div class="lowest_Price_Item">
+                    <div class="lowest_Price_icon">
+                        <img src="https://images.meesho.com/images/pow/freeDelivery.svg"/>
+                    </div>
+                    <p>Free Delivery</p>
+                </div>
+
+                <div class="lowest_Price_Item">
+                    <div class="lowest_Price_icon">
+                        <img src="https://images.meesho.com/images/pow/cod.svg"/>
+                    </div>
+                    <p>Cash on Delivery</p>
+                </div>
+                <div class="lowest_Price_Item">
+                    <div class="lowest_Price_icon">
+                        <img src="https://images.meesho.com/images/pow/easyReturns.svg"/>
+                    </div>
+                    <p>Easy Returns</p>
+                </div>
+            </div>
+
+            <button class="download_App_contianer">
+                <div class="download_App_Icon">
+                    <img src="https://images.meesho.com/images/pow/playstoreSmallIcon.webp"/>
+                </div>
+                <p>Download the Meesho App</p>
+            </button>
+
+        </div>
+        <div class="lowest_Price_image">
+            <img src="https://images.meesho.com/images/marketing/1631722939962.webp" />
+        </div>
+    </div>
+
+    <!--Top Categories to choose from-->
+    <div class="top___Categories___From">
+        <div class="top__Categories__Heading">
+            <span class="horizontal__Line"></span>
+            <h1>Top Categories to choose from</h1>
+            <span class="horizontal__Line"></span>
+        </div>
+        <div class="topCategoreisImage">
+            <img src="https://images.meesho.com/images/marketing/1649760442043.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649760423313.webp" />
+            <img src="https://images.meesho.com/images/marketing/1649759799809.webp"/>
+        </div>
+
+        <div class="essentialContaienr"> 
+            <img src="https://images.meesho.com/images/marketing/1664368165450.webp" class="essen-btn"/>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760808952.webp"/>
+                <img src="https://images.meesho.com/images/marketing/1664364866805.webp"/>
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760703179.webp"/>
+                <img src="https://images.meesho.com/images/marketing/1664364917657.webp"/>
+            </div>
+
+            <div class="essential_item">
+                <img src="https://images.meesho.com/images/marketing/1649760786763.webp"/>
+                <img src="https://images.meesho.com/images/marketing/1664364898513.webp"/>
+            </div>
+
+
+        </div>
+       
+        <div class="download_banner">
+            
+            <div class="download_banner_cont">
+                <div id="download_banner_cont_h4">
+                    <h4>Become a Reseller and</h4><br>
+                </div>
+                <div id="h1_heading1">
+                    <h1>Start your Online Business</h1>     
+                </div>
+                <div id="h1_heading2">
+                    <h1>with Zero Investment</h1>    
+                </div>
+              <div class="img__cont">
+                <div  class="img_x1">
+                    <img  id="Google_play_icon" src="https://images.meesho.com/images/pow/playstoreIcon.webp"/>
+               </div>
+                <div class="img_x2">
+                    <img id="Google_play_icon"src="https://images.meesho.com/images/pow/appstoreIcon.webp"/>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="supply_bamnner">
+            <div class="supp_cont">  <h1  class="titll">Register as a Meesho Supplier</h1>
+                <p  class="titll">Sell your products to crores of customers at 0% commission</p>
+            </div> 
+            
+                <div class="tick_icon_container">
+                    <div>
+                        <i class='fas fa-check-circle' style='color:forestgreen'></i>
+                        <p class="grow">Grow your business 10x </p>
+                        <p class="line"> | </p>
+                        
+                    </div>
+                    <div>
+                        <i class='fas fa-check-circle' style='color:forestgreen'></i>
+                        
+                        <p class="grow">Enjoy 100% Profit </p>
+                        <p class="line"> | </p>
+                    </div>
+                    <div>
+                        <i class='fas fa-check-circle' style='color:forestgreen'></i>
+                        
+                        <p class="grow">Sell all over India</p>
+                    </div>
+                </div>
+                <button>Sign up <br>now</button>
+            </div>
+        </div>       
+        
+    </div>>
+               
+    
+     <footer class="footer">
+           <div class="footer_part">
+               
+           </div>
+     </footer>
+</body>
+
+<script src="script.js" type="module" ></script>
+
+</html>
