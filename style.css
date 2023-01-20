@@ -117,6 +117,10 @@ form{
     width: 180px;
     margin-top: 5px;
 }
+.profileAndCart:hover{
+    color:var(--hoverTextColor);
+    cursor: pointer;
+}
 .downloadHoverBtnContainer{
     position: absolute;
     bottom: 0;
@@ -132,11 +136,65 @@ form{
     background: white;
     z-index: 2;
 }
+.downloadHoverBtnContainer2{
+    position: absolute;
+    bottom: 0;
+    top:40px;
+    
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    width: 250px;
+    border-radius: 8px;
+    display: none;
+    height: 180px;
+    padding: 10px;
+    margin-left: -30px;
+    color:var(--textColor);
+    background: white;
+    z-index: 2;
+}
+
+.profileAndCart:hover .downloadHoverBtnContainer2,
+.profileAndCart:focus .downloadHoverBtnContainer2{
+    display: block;
+}
 .downloadContainer:hover .downloadHoverBtnContainer,
 .downloadContainer:focus .downloadHoverBtnContainer{
     display: block;
 }
+.downloadHoverBtnContainer2>button{
+    width: 225px;
+    height: 45px;
+    background-color: rgb(244, 51, 151);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: auto;
+}
+#ddd{
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid red; */
+   
+}
+#ddd>h3{
+   font-size: 20px;
+}
+#mm{
+    
+    margin-left: 50px;
 
+}
+#ppp{
+    width: 200px;
+    height: 20px;
+  
+  
+  margin-bottom: 5px;
+}
+#ppp>p{
+    font-size: 11px;
+ 
+}
 .downloadContainer p{
     margin:0;
     padding: 0;
@@ -146,7 +204,7 @@ form{
 .profileAndCart{
     display: flex;
     align-items: center;
-    
+    position: relative;
 }
 .profileAndCart:hover,
 .profileAndCart:focus{
@@ -304,9 +362,16 @@ nav ul li:hover .subMenu{
     padding: 0 10px;
     border-radius: 5px;
     color:white;
+    background-color: rgb(244, 51, 151);
+    width: 350px;
+    margin-left: 0;
 }
-.download_App_contianer p{
-    padding: 0px 20px;
+.download_App_contianer>p{
+    margin-left: 10px;
+    color: white;
+}
+.download_App_Icon{
+    margin-left: 20px;
 }
 /*topCategoriesFrom*/
 .top___Categories___From{
@@ -471,7 +536,7 @@ nav ul li:hover .subMenu{
 
 .supply_bamnner{
     width: 100%;
-    height: 500px;
+    height: 290px;
     background-color: 400px;
     margin-top: 50px;
     background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop.webp");
@@ -479,6 +544,7 @@ nav ul li:hover .subMenu{
    
     align-items: center;
     justify-content: space-between;
+   
 }
 
 .supp_cont{
@@ -565,9 +631,199 @@ button{
     color: rgb(244, 51, 151);  
   padding-right: 60px;
 }
-.footer_part{
-    width: 1200px;
+/* .footer_part{
+    width: 1300px;
     height: 1000px;
     border: 1px solid blue;
     margin: auto;
+    border-radius: 8px;
+} */
+/***********************middiiii foootterr parttt *********************************/
+.midi{
+    width: 1519px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    display: flex;
+}
+.midi>div:nth-child(1){
+    width: 450px;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-left: 90px;
+   
+}
+.midi>div:nth-child(1)>h1{
+      color: black;
+}
+.midi>div:nth-child(1)>div{
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.midi>div:nth-child(1)>div>div:nth-child(2){
+    width: 215px;
+    height: 50px;
+    /* border: 1px solid green; */
+    margin: auto;
+    border-radius: 8px;
+}
+.midi>div:nth-child(1)>div>div:nth-child(1){
+    width: 215px;
+    height: 50px;
+    /* border: 6px solid green; */
+    margin: auto;
+    border-radius: 8px;
+    margin-left:0;
+}
+.midi>div:nth-child(1)>div>div>img{
+    width: 100%;
+
+}
+.midi>div:nth-child(2){
+    width: 240px;
+    height: 300px;
+    /* border: 1px solid blue; */
+  
+}
+.midi>div:nth-child(2)>p{
+    font-weight: bold;
+    color: rgb(105,105,105);
+    font-size: 20px;
+    
+}
+.midi>div:nth-child(3){
+    width: 240px;
+    height: 300px;
+    /* border: 1px solid blue; */
+}
+.midi>div:nth-child(3)>p{
+    font-weight: bold;
+    color: rgb(105,105,105);
+    font-size: 18px;
+    
+    
+}
+.midi>div:nth-child(4){
+    width: 230px;
+    height: 300px;
+    /* border: 1px solid black; */
+   
+}
+.midi>div:nth-child(4)>p{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.midi>div:nth-child(4)>div{
+    width: 230px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    display: flex;
+  padding-bottom: 40px;
+}
+.midi>div:nth-child(4)>div>div:nth-child(1){
+    width: 25px;
+    height: 25px;
+  
+    margin-left: 0;
+}
+.midi>div:nth-child(4)>div>div:nth-child(2){
+    width: 25px;
+    height: 25px;
+   
+    margin-left: 14px;
+}
+.midi>div:nth-child(4)>div>div:nth-child(3){
+    width: 25px;
+    height: 25px;
+    
+    margin-left: 14px;
+}
+.midi>div:nth-child(4)>div>div:nth-child(4){
+    width: 25px;
+    height: 25px;
+   
+    margin-left: 14px;
+}
+.midi>div:nth-child(4)>div>div:nth-child(5){
+    width: 25px;
+    height: 25px;
+   
+    margin-left: 14px;
+}
+.midi>div:nth-child(4)>div>div>img{
+    width: 100%;
+}
+.midi>div:nth-child(5){
+    width: 360px;
+    height: 300px;
+    /* border: 1px solid blue; */
+}
+#bold{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+#light{
+    font-weight: 100;
+    font-size: 12px;
+}
+.Product_container_you{
+width: 450px;
+    background-color: #ccc;
+    padding: 10px;
+   height: 100%;
+   margin-top: 20px;
+}
+.Product_container_you_content{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    height: 100%;
+}
+.Product_category_you_aside{
+    /* background-color: red; */
+    height: 100%;
+   
+}
+
+
+.serach_category_input{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+   width: 350px;
+    /* border: 2px solid #ccc; */
+    border: 2px solid gray;
+    border-radius: 5px;
+
+}
+.serach_category_input input{
+    font-size: 18px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.serach_category_input input::placeholder{
+    font-size: 15px;
+}
+.display_Category_list{
+    padding: 20px 10px;
+}
+.Product_category_display{
+    height: 100%;
+    
+    /* border: 2px solid red; */
+    width: 700px;
+}
+.pro_cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+.product_img>img{
+    width: 30%;
 }
